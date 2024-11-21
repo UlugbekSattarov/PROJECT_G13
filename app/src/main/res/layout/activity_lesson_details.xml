@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvLessonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lesson Name"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvLessonDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration: 10 mins"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvLessonDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description of the lesson goes here."
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnWatchLesson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Watch Lesson" />
+
+    <Button
+        android:id="@+id/btnMarkComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark as Complete" />
+</LinearLayout>
